@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<session>
+<bootuptime>Wed Aug 31 12:56:16 2016</bootuptime>
+<logsettings>
+<dimensions>
+<logdim name="Year">
+</logdim>
+<logdim name="Measures">
+</logdim>
+<logdim name="Product">
+</logdim>
+<logdim name="Market">
+</logdim>
+<logdim name="Scenario">
+</logdim>
+<logdim name="Years">
+</logdim>
+</dimensions>
+<othersettings>
+<logformat>cluster</logformat>
+<logpath>/u01/app/oracle/product/epm/user_projects/epmsystem1/EssbaseServer/essbaseserver1/app/Sample/Basic/</logpath>
+</othersettings>
+</logsettings>
+<querylist>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:17 2016</time>
+<subquery>
+<cluster size="9">
+<dim size="3"><member>Jan]<member>Feb]<member>Mar]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="3"><member>100]<member>200]<member>400]</dim>
+<dim size="1"><member>East]</dim>
+<dim size="1"><member>Actual]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:18 2016</time>
+<subquery>
+<cluster size="12">
+<dim size="4"><member>Qtr1]<member>Qtr2]<member>Qtr3]<member>Qtr4]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="3"><member>100]<member>200]<member>400]</dim>
+<dim size="1"><member>East]</dim>
+<dim size="1"><member>Budget]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:18 2016</time>
+<subquery>
+<cluster size="6">
+<dim size="3"><member>Jan]<member>Feb]<member>Mar]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="2"><member>200]<member>300]</dim>
+<dim size="1"><member>California]</dim>
+<dim size="1"><member>Actual]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:18 2016</time>
+<subquery>
+<cluster size="8">
+<dim size="4"><member>Qtr1]<member>Qtr2]<member>Qtr3]<member>Qtr4]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="2"><member>200]<member>300]</dim>
+<dim size="1"><member>California]</dim>
+<dim size="1"><member>Budget]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:19 2016</time>
+<subquery>
+<cluster size="6">
+<dim size="3"><member>Jan]<member>Feb]<member>Mar]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="2"><member>200]<member>300]</dim>
+<dim size="1"><member>Oregon]</dim>
+<dim size="1"><member>Actual]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:19 2016</time>
+<subquery>
+<cluster size="8">
+<dim size="4"><member>Qtr1]<member>Qtr2]<member>Qtr3]<member>Qtr4]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="2"><member>200]<member>300]</dim>
+<dim size="1"><member>Oregon]</dim>
+<dim size="1"><member>Budget]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:19 2016</time>
+<subquery>
+<cluster size="6">
+<dim size="3"><member>Jan]<member>Feb]<member>Mar]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="2"><member>200]<member>300]</dim>
+<dim size="1"><member>Washington]</dim>
+<dim size="1"><member>Actual]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:19 2016</time>
+<subquery>
+<cluster size="8">
+<dim size="4"><member>Qtr1]<member>Qtr2]<member>Qtr3]<member>Qtr4]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="2"><member>200]<member>300]</dim>
+<dim size="1"><member>Washington]</dim>
+<dim size="1"><member>Budget]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:20 2016</time>
+<subquery>
+<cluster size="6">
+<dim size="3"><member>Jan]<member>Feb]<member>Mar]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="2"><member>200]<member>300]</dim>
+<dim size="1"><member>Utah]</dim>
+<dim size="1"><member>Actual]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:20 2016</time>
+<subquery>
+<cluster size="8">
+<dim size="4"><member>Qtr1]<member>Qtr2]<member>Qtr3]<member>Qtr4]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="2"><member>200]<member>300]</dim>
+<dim size="1"><member>Utah]</dim>
+<dim size="1"><member>Budget]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:20 2016</time>
+<subquery>
+<cluster size="6">
+<dim size="3"><member>Jan]<member>Feb]<member>Mar]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="2"><member>200]<member>300]</dim>
+<dim size="1"><member>Nevada]</dim>
+<dim size="1"><member>Actual]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:21 2016</time>
+<subquery>
+<cluster size="8">
+<dim size="4"><member>Qtr1]<member>Qtr2]<member>Qtr3]<member>Qtr4]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="2"><member>200]<member>300]</dim>
+<dim size="1"><member>Nevada]</dim>
+<dim size="1"><member>Budget]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0.01 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:21 2016</time>
+<subquery>
+<cluster size="6">
+<dim size="3"><member>Jan]<member>Feb]<member>Mar]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="2"><member>200]<member>300]</dim>
+<dim size="1"><member>West]</dim>
+<dim size="1"><member>Actual]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
+<query>
+<user>gsanjay</user>
+<time>Wed Aug 31 12:56:21 2016</time>
+<subquery>
+<cluster size="8">
+<dim size="4"><member>Qtr1]<member>Qtr2]<member>Qtr3]<member>Qtr4]</dim>
+<dim size="1"><member>Sales]</dim>
+<dim size="2"><member>200]<member>300]</dim>
+<dim size="1"><member>West]</dim>
+<dim size="1"><member>Budget]</dim>
+<dim size="1"><member>Years]</dim>
+</cluster>
+</subquery>
+<elapsedtime>0 seconds</elapsedtime>
+</query>
