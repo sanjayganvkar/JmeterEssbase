@@ -31,15 +31,15 @@ rm ${GRIDFILE}* 2>/dev/null
 #
 # ..... to
 #
-#  +   +  [Sales] [East] [Actual] [Years]
-# Jan	100
-# Jan 200 
-# ........ to a grid file ( via awk )
-# Sales,0,2
-# East  0,3
-# Jan   1,0
-# Jan   2.0
+# [Jan],[Feb],[Mar]
+# [100],[200],[300]
+# [East]
+# [Actual]
+# [Years]
 #
+#-and feed to the awk script which will convert the input into a text file
+# containing
+# row,col,Dimname format
 # ----------------------------------------------------------------------------------------------------------
 
 # Split the QueryLog in multiple files , each containing a sub-query
@@ -62,7 +62,7 @@ do
 	then
 		grep "dim s"  ${fil} | sed -e "s/^.dim size=.[0-9]*\">//g" -e "s/<\/dim>$//g" -e  "s/<member>/[/g" -e  "s/<\/member>/]/g" -e "s/\]\[/],[/g"
 	fi
-	) | sed -e "s/^.dim size=.[0-9]*\">//g" -e "s/<\/dim>$//g" -e  "s/<member>/[/g" -e  "s/<\/member>/]/g" -e "s/\]\[/],[/g"  |awk -f log2grid2.awk |sed -e "s/\[//g" -e "s/\]//g"  >> ${GRIDFILE}
+	) | sed -e "s/^.dim size=.[0-9]*\">//g" -e "s/<\/dim>$//g" -e  "s/<member>/[/g" -e  "s/<\/member>/]/g" -e "s/\]\[/],[/g"  |awk -f log2grid.awk |sed -e "s/\[//g" -e "s/\]//g"  >> ${GRIDFILE}
 done
 rm ${TMPFILE}*
 echo "Ended   converting file ${FILE} at `date`"
